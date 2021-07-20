@@ -1,0 +1,25 @@
+#Writing lines that convert entered values to the desired output
+#will also use the pre-defined classes to performe methematical functions
+
+studentNo = input("Enter student number")
+print(studentNo)
+print(" ")
+names = input("Enter your name and surname")
+print(names)
+print(" ")
+print("Now enter any two decimal values that you will like to convert")
+print(" ")
+val1 = float(input("Enter first number"))
+print(val1)
+print(" ")
+val2 = float(input("Enter second nnumber"))
+print(val2)
+print(" ")
+convertVal1 = int(val1)
+convertVal2 = int(val2)
+print("The following is the representation of converted numbers:")
+print("first value entered is:",convertVal1 ,"&", "second value entered is:",convertVal2)
+print(" ")
+print("the sum of both is:")
+add = convertVal1 + convertVal2
+print(add)
